@@ -405,7 +405,7 @@ h2{
     margin:0px;
     position: inherit;
 }
-img{
+img, svg{
     display: block;
     max-width: 100%;
     height: auto;
@@ -728,6 +728,7 @@ img{
 
 .icon-close{
     fill:#000000;
+
 }
 
 .backdrop.is-hidden {
