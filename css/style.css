@@ -763,15 +763,16 @@ img, svg{
     margin-bottom: 30px;
     flex-basis: calc((100% - 3 * 30px) / 3);
     width: calc((100% - 30px * 2) / 3);
+    border: 1px solid #EEEEEE;
 }
 
 .team-folio:nth-child(3n){
     margin-right: 0px;
 }
 
-.team-folio:nth-last-child(-n + 4){
+/* .team-folio:nth-last-child(-n + 4){
     margin-bottom: 0px;
-} 
+}  */
 
 .team-folio:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -781,9 +782,20 @@ img, svg{
     /* margin-top: 34px;
     margin-bottom: 30px; */
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    /* border: 1px solid #EEEEEE; */
     box-sizing: border-box;
     text-align: left;
+}
+
+.portfolio-overlay p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+    background-color: #fff;
+    align-items: center;
+    /* padding: 24px 63px; */
+
 }
 
 .tittle{
