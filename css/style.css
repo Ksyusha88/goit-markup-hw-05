@@ -791,7 +791,7 @@ img, svg{
 
 .portfolio-thumb{
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 
